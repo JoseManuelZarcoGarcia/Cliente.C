@@ -9,7 +9,11 @@ namespace Cliente.Servicios
 {
     internal interface ClienteInterfaz
     {
-
+        /// <summary>
+        /// llama al metodo que da de alta a un cliente
+        /// 211123 - jzg
+        /// </summary>
+        /// <param name="listaAntigua"></param>
         public void darAltaCliente( List<ClienteDto> listaAntigua);
 
     }

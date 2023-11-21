@@ -10,6 +10,11 @@ namespace Cliente.Servicios
     internal class ClienteImplementacion : ClienteInterfaz
     {
 
+        /// <summary>
+        /// metodo que da de alta a un nuevo cliente que se crea dentro y la añade a la lista
+        /// 211123 - jzg
+        /// </summary>
+        /// <param name="listaAntigua"></param>
         public void darAltaCliente(List<ClienteDto> listaAntigua)
         {
             // creo un cliente
@@ -20,6 +25,11 @@ namespace Cliente.Servicios
 
         }
 
+        /// <summary>
+        /// metodo que crea un nuevo cliente
+        /// 211123 - jzg
+        /// </summary>
+        /// <returns></returns>
         private ClienteDto crearNuevoCliente()
         {
             
@@ -53,9 +63,6 @@ namespace Cliente.Servicios
             return nuevoCliente;
 
         }
-
-
-
 
     }
 }

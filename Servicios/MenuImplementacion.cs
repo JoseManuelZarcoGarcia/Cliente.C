@@ -8,14 +8,17 @@ namespace Cliente.Servicios
 {
     internal class MenuImplementacion : MenuInterfaz
     {
-
+        /// <summary>
+        /// metodo que impleneta el menu
+        /// </summary>
+        /// <returns></returns>
         public int mostrarMenuYSeleccion()
         {
             int opcionIntroducida;
             Console.WriteLine("###############################");
             Console.WriteLine("0, cerrar app");
-            Console.WriteLine("1, darse de alta");
-            Console.WriteLine("2, ingresar dinero");
+            Console.WriteLine("1, dar de alta nuevo cliente");
+            Console.WriteLine("2, dar de alta nueva cuenta corriente");
             Console.WriteLine("3, sacar dinero");
             Console.WriteLine("4, tranferir dinero");
             Console.WriteLine("5, historial de operaciones");
