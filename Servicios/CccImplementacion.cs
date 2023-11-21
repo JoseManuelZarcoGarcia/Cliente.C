@@ -41,9 +41,6 @@ namespace Cliente.Servicios
             Console.WriteLine("introduzca su isban: ");
             nuevoCliente.IsbanCuentaBancaria = Console.ReadLine();
 
-            Console.WriteLine("introduzca su codigo Switch: ");
-            nuevoCliente.CodigoSwitch = Console.ReadLine();
-
             Console.WriteLine("introduzca su dni: ");
             nuevoCliente.DniCliente = Console.ReadLine();
 
