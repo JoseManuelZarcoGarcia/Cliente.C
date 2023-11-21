@@ -25,7 +25,7 @@ namespace Cliente.Dtos
 
         // Atributos       
         long idCcc;
-        string isbanCuentaBancaria = "ES"+"6545644654465";
+        string isbanCuentaBancaria = "ES4556545644654465";
         string codigoSwitch = "CSI1SSXX";
         string dniCliente = "123456789l";
         string fchAltaCcc = "9999/12/31";
@@ -50,6 +50,10 @@ namespace Cliente.Dtos
             this.fchAltaCcc = fchAltaCcc;
             this.fchBajaCcc = fchBajaCcc;
         }
+
+        public CccDto() { 
+        }
+
 
        override
        public string ToString()

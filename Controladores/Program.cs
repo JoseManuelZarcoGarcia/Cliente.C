@@ -10,10 +10,11 @@ namespace Cliente.Controladores
         public static void Main(string[] args)
         {
             List<ClienteDto> listaCliente = new List<ClienteDto>();
-
+            List<CccDto> listaCcc = new List<CccDto>();
 
             MenuInterfaz mi = new MenuImplementacion();
             ClienteInterfaz ci = new ClienteImplementacion();
+            CccInterfaz ccci = new CccImplementacion();
 
             bool cerrarMenu = false;
             int opcionSeleccionada;
@@ -42,7 +43,8 @@ namespace Cliente.Controladores
                         break;
 
                     case 2:
-                        Console.WriteLine("[info] - se ejecuta el caso 2");
+                        Console.WriteLine("[info] - Crear nueva ccc");
+                        ccci.darAltaCcc(listaCcc);
                         break;
 
                     case 3:
