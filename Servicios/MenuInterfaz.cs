@@ -8,7 +8,11 @@ namespace Cliente.Servicios
 {
     internal interface MenuInterfaz
     {
-
+        /// <summary>
+        /// llamada al metodo que implemeta el menu
+        /// 211123 - jzg
+        /// </summary>
+        /// <returns></returns>
         public int mostrarMenuYSeleccion();
 
 
