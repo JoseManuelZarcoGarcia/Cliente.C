@@ -16,5 +16,11 @@ namespace Cliente.Servicios
         /// <param name="listaAntigua"></param>
         public void darAltaCliente( List<ClienteDto> listaAntigua);
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name=""></param>
+        public void borrarCliente(List<ClienteDto> listaAntigua);
+
     }
 }

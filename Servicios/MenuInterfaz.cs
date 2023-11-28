@@ -15,6 +15,12 @@ namespace Cliente.Servicios
         /// <returns></returns>
         public int mostrarMenuYSeleccion();
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public string pedirDni();
+
 
     }
 }

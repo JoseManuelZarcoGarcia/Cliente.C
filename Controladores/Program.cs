@@ -52,11 +52,16 @@ namespace Cliente.Controladores
                         break;
 
                     case 4:
-                        Console.WriteLine("[info] - se ejecuta el caso 4");
+                        Console.WriteLine("[info] - Eliminar un cliente");
+                        ci.borrarCliente(listaCliente);
                         break;
 
                     case 5:
-                        Console.WriteLine("[info] - se ejecuta el caso 5");
+                        Console.WriteLine("[info] - Ver clienet");
+                        foreach (ClienteDto cliente in listaCliente)
+                        {
+                            Console.WriteLine(cliente.ToString());
+                        }
                         break;
 
                     default:

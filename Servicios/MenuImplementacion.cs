@@ -21,7 +21,7 @@ namespace Cliente.Servicios
             Console.WriteLine("1, dar de alta nuevo cliente");
             Console.WriteLine("2, dar de alta nueva cuenta corriente");
             Console.WriteLine("3, sacar dinero");
-            Console.WriteLine("4, tranferir dinero");
+            Console.WriteLine("4, borrar cliente");
             Console.WriteLine("5, historial de operaciones");
             Console.WriteLine("###############################");
             Console.WriteLine("seleccione una opcion");
@@ -33,6 +33,14 @@ namespace Cliente.Servicios
 
             return opcionIntroducida;
 
+        }
+
+
+        public string pedirDni()
+        {
+            Console.WriteLine("escriba su dni: ");
+            string dniCliente = Console.ReadLine();
+            return dniCliente;
         }
 
 
